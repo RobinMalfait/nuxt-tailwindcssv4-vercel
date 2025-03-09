@@ -44,6 +44,7 @@ export default defineNuxtConfig({
       }
     }
   },
+  css: ['~/assets/css/tailwind.css'],
   devtools: { enabled: true },
   runtimeConfig: {
     varnishToken: '',
@@ -53,7 +54,6 @@ export default defineNuxtConfig({
       papersEndpoint: '/account/papers'
     }
   },
-  css: ['~/assets/css/main.css'],
   googleFonts: {
     families: {
       Lato: [400, 700]
