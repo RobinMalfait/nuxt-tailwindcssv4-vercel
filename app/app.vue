@@ -1,11 +1,6 @@
 <template>
-  <div class="h-full">
+  <div>
     <NuxtRouteAnnouncer />
-    <NuxtLoadingIndicator color="#008DF4" :height="4" />
-    <NuxtLayout>
-      <NuxtPage/>
-    </NuxtLayout>
+    <NuxtWelcome />
   </div>
 </template>
-<script setup lang="ts">
-</script>
